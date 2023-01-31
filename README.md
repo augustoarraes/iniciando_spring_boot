@@ -5,7 +5,7 @@ Ao clonar o projeto, facilmente você pode importar na sua IDE. No meu caso, uti
 O projeto foi escrito em Java 11, versão do Spring Boot 2.7.8, conforme `iniciandoapi/pom.xml`.
 
 1. ## Executando o App:
-Além de poder executar a aplicação pela sua IDE, no diretório do código, você pode exectutá-lo via comando das seguintes formas:
+Além de poder executar a aplicação pela sua IDE, no diretório do código você também pode exectutá-lo via comando das seguintes formas:
 ```bash
 # .. estilosamente via maven
 mvn spring-boot:run
@@ -27,6 +27,7 @@ docker build -t iniciandoapi .
 # 2. Executando container em docker:
 docker run --add-host=host.docker.internal:172.17.0.1 --name iniciandoapi -p 9000:9000 -d iniciandoapi 
 ```
+Aqui também é necessário gerar o JAR.
 
 
 
