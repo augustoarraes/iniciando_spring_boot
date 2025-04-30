@@ -25,3 +25,8 @@ Ao subir o app, Tabém está disponível a [Documentação Swagger](http://local
 3. ## Referencias:
 [Spring Quickstart Guide](https://spring.io/quickstart)
 
+
+4. ## Contato
+
+[Augusto Arraes](http://linktr.ee/a.arraes)
+
